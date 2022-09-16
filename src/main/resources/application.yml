@@ -1,6 +1,6 @@
 aws:
-  access-key: AKIA5HZX4IVB7QHJNJEQ
-  secret-key: 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
+  access-key: seu-access-key
+  secret-key: seu-secret-key
   region: us-east-2
   cognito:
     user-pool-id: us-east-2_gajsqmaSY
