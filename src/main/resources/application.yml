@@ -1,0 +1,8 @@
+aws:
+  access-key: AKIA5HZX4IVB7QHJNJEQ
+  secret-key: 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
+  region: us-east-2
+  cognito:
+    user-pool-id: us-east-2_gajsqmaSY
+    app-client-id: 9qj4993c7k7e7l97kbv755p4b
+    #app-client-secret: 1b6omphrdbmtd1cg2qob6httc9mb9lklb61juvt1u1rd19tu5h9c
