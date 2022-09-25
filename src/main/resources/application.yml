@@ -1,6 +1,6 @@
 aws:
-  access-key: AKIA5HZX4IVBUOLOEIG5j
-  secret-key: gI7ICuBAPoZ8oQ3ehhnMUdssikYTsWbFV4ffDZjqj
+  access-key: AKIA5HZX4IVBUOLOEIG5
+  secret-key: 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
   region: us-east-2
   cognito:
     user-pool-id: us-east-2_tFsV0yHdD

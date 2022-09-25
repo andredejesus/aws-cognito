@@ -32,7 +32,10 @@ public class UsuarioServiceImpl implements UsuarioService {
                     // Definindo o tipo de autenticacao que sera por e-mail
                     .withDesiredDeliveryMediums(DeliveryMediumType.EMAIL)
                     .withUsername(dadosUsuario.getEmail())
-                    .withMessageAction(MessageActionType.SUPPRESS);
+                    .withMessageAction(MessageActionType.SUPPRESS)
+                    .withUserAttributes(
+                            new AttributeType().withName("email").withValue(dadosUsuario.getEmail()),
+                            new AttributeType().withName("email_verified").withValue("true"));
 
 
             // Cria um novo usuário
